@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1569657563 source:c:\users\wangj\desktop\ooad\lab\lab01\ant.cpp
+	"Ant.h"
+
+1569655662 c:\users\wangj\desktop\ooad\lab\lab01\ant.h
+	"Stick.h"
+
+1569657163 c:\users\wangj\desktop\ooad\lab\lab01\stick.h
+
+1569656425 source:c:\users\wangj\desktop\ooad\lab\lab01\creepinggame.cpp
+	"CreepingGame.h"
+	"iostream"
+	<cmath>
+
+1569655779 c:\users\wangj\desktop\ooad\lab\lab01\creepinggame.h
+	<vector>
+	"Ant.h"
+
+1569656904 source:c:\users\wangj\desktop\ooad\lab\lab01\main.cpp
+	<bits/stdc++.h>
+	"PlayRoom.h"
+	"CreepingGame.h"
+	"Ant.h"
+	"Stick.h"
+
+1569656514 c:\users\wangj\desktop\ooad\lab\lab01\playroom.h
+	"CreepingGame.h"
+
+1569657139 source:c:\users\wangj\desktop\ooad\lab\lab01\playroom.cpp
+	"PlayRoom.h"
+	"CreepingGame.h"
+	<iostream>
+
+1569657174 source:c:\users\wangj\desktop\ooad\lab\lab01\stick.cpp
+	"Stick.h"
+

@@ -1,2 +1,2 @@
 # ECNU-OADD-Lab1-1712-AntsCreepiongGame
- The lab 哦呢
+ The lab1 for jnk's OADD class
