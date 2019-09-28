@@ -12,15 +12,16 @@ CreepingGame::CreepingGame(){
 
 int CreepingGame::drivingGame(){
     time += incTime;
+    cout << "At second " << time << ":\t";
     for(int i = 0; i < 5; i++){
         Ants[i].step();
         if(Ants[i].getLocation() > stick.getLength()){
-            cout << stick.getLength() << " ";
+            cout << stick.getLength() << "\t";
         }
         else if(Ants[i].getLocation() < 0){
-            cout << 0 << " ";
+            cout << 0 << "\t";
         }else
-            cout << Ants[i].getLocation() << " ";
+            cout << Ants[i].getLocation() << "\t";
     }
     for(int i = 0; i < 5; i++){
         for(int j = i + 1; j < 5; j++){
@@ -73,6 +74,7 @@ void CreepingGame::playGame(){
             break;
     }
     cout << "Total time is: " << time << endl;
+    cout << endl;
 }
 
 bool CreepingGame::isOver(){

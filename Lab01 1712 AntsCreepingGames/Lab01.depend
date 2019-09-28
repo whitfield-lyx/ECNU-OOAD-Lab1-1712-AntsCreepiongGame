@@ -34,3 +34,38 @@
 1569657174 source:c:\users\wangj\desktop\ooad\lab\lab01\stick.cpp
 	"Stick.h"
 
+1569658888 source:c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\ant.cpp
+	"Ant.h"
+
+1569658888 c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\ant.h
+	"Stick.h"
+
+1569658888 c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\stick.h
+
+1569658888 source:c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\main.cpp
+	<bits/stdc++.h>
+	"PlayRoom.h"
+	"CreepingGame.h"
+	"Ant.h"
+	"Stick.h"
+
+1569658888 c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\playroom.h
+	"CreepingGame.h"
+
+1569658888 c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\creepinggame.h
+	<vector>
+	"Ant.h"
+
+1569658888 source:c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\stick.cpp
+	"Stick.h"
+
+1569659259 source:c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\creepinggame.cpp
+	"CreepingGame.h"
+	"iostream"
+	<cmath>
+
+1569659723 source:c:\users\wangj\documents\github\ecnu-oadd-lab1-1712-antscreepionggame\lab01 1712 antscreepinggames\playroom.cpp
+	"PlayRoom.h"
+	"CreepingGame.h"
+	<iostream>
+
