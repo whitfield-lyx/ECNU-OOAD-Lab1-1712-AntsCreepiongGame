@@ -74,6 +74,11 @@ vector<bool> CreepingGame::minCondition(){
 }
 
 int CreepingGame::playGame(){
+    if(isOver())
+    {
+        cout << "Total time is: " << time << endl;
+        return time;
+    }
     while(1){
         drivingGame();
         cout << endl;

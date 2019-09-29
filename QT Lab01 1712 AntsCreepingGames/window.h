@@ -21,7 +21,7 @@ public:
     explicit window(QWidget *parent = nullptr);
     ~window();
     int location[5]={0};
-    int length=300;
+    int length=0;
 
 private slots:
    void on_Location1_valueChanged();
