@@ -71,9 +71,12 @@ bool Ant::isOnStick(Stick myStick){
     return location < myStick.getLength() && location >= 0;
 }
 
-void Ant::step(){
-    if(getDirection())
-        location += velocity * incTime;
-    else
-        location -= velocity * incTime;
+void Ant::step(Stick myStick){
+    if(isOnStick(myStick))
+    {
+        if(getDirection())
+            location += velocity * incTime;
+        else
+            location -= velocity * incTime;
+    }
 }

@@ -14,9 +14,11 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QSpinBox>
 
 QT_BEGIN_NAMESPACE
@@ -40,16 +42,28 @@ public:
     QLabel *Maxtime;
     QLabel *MinTime;
     QPushButton *StartButtom;
-    QPushButton *ExitButtom;
+    QPushButton *ResetButtom;
     QLabel *setLengthLabel;
     QSpinBox *Length;
+    QFrame *line;
+    QFrame *line_2;
+    QRadioButton *MaxAnt1;
+    QRadioButton *MaxAnt2;
+    QRadioButton *MaxAnt3;
+    QRadioButton *MaxAnt4;
+    QRadioButton *MaxAnt5;
+    QRadioButton *MinAnt3;
+    QRadioButton *MinAnt1;
+    QRadioButton *MinAnt2;
+    QRadioButton *MinAnt4;
+    QRadioButton *MinAnt5;
 
     void setupUi(QDialog *window)
     {
         if (window->objectName().isEmpty())
             window->setObjectName(QStringLiteral("window"));
         window->setEnabled(true);
-        window->resize(699, 453);
+        window->resize(685, 664);
         window->setContextMenuPolicy(Qt::CustomContextMenu);
         window->setWindowOpacity(1);
         window->setLayoutDirection(Qt::LeftToRight);
@@ -60,6 +74,7 @@ public:
         Location1->setObjectName(QStringLiteral("Location1"));
         Location1->setEnabled(true);
         Location1->setGeometry(QRect(40, 90, 81, 41));
+        Location1->setMaximumSize(QSize(81, 41));
         QFont font;
         font.setFamily(QString::fromUtf8("Aa\345\205\203\346\260\224\346\273\241\346\273\241"));
         font.setPointSize(10);
@@ -70,6 +85,7 @@ public:
         Location2->setObjectName(QStringLiteral("Location2"));
         Location2->setEnabled(true);
         Location2->setGeometry(QRect(150, 90, 81, 41));
+        Location2->setMaximumSize(QSize(81, 41));
         Location2->setFont(font);
         Location2->setCursor(QCursor(Qt::IBeamCursor));
         Location2->setMaximum(9999);
@@ -77,6 +93,7 @@ public:
         Location3->setObjectName(QStringLiteral("Location3"));
         Location3->setEnabled(true);
         Location3->setGeometry(QRect(260, 90, 81, 41));
+        Location3->setMaximumSize(QSize(81, 41));
         Location3->setFont(font);
         Location3->setCursor(QCursor(Qt::IBeamCursor));
         Location3->setMaximum(9999);
@@ -84,6 +101,7 @@ public:
         Location4->setObjectName(QStringLiteral("Location4"));
         Location4->setEnabled(true);
         Location4->setGeometry(QRect(370, 90, 81, 41));
+        Location4->setMaximumSize(QSize(81, 41));
         Location4->setFont(font);
         Location4->setCursor(QCursor(Qt::IBeamCursor));
         Location4->setMaximum(9999);
@@ -91,6 +109,7 @@ public:
         Location5->setObjectName(QStringLiteral("Location5"));
         Location5->setEnabled(true);
         Location5->setGeometry(QRect(480, 90, 81, 41));
+        Location5->setMaximumSize(QSize(81, 41));
         Location5->setFont(font);
         Location5->setCursor(QCursor(Qt::IBeamCursor));
         Location5->setMaximum(9999);
@@ -98,6 +117,7 @@ public:
         setLocationLabel->setObjectName(QStringLiteral("setLocationLabel"));
         setLocationLabel->setEnabled(true);
         setLocationLabel->setGeometry(QRect(40, 10, 571, 31));
+        setLocationLabel->setMaximumSize(QSize(571, 31));
         QFont font1;
         font1.setFamily(QString::fromUtf8("Aa\345\205\203\346\260\224\346\273\241\346\273\241"));
         font1.setPointSize(16);
@@ -108,46 +128,51 @@ public:
         ant1->setObjectName(QStringLiteral("ant1"));
         ant1->setEnabled(true);
         ant1->setGeometry(QRect(40, 50, 41, 31));
+        ant1->setMaximumSize(QSize(41, 31));
         ant1->setFont(font);
         ant2 = new QLabel(window);
         ant2->setObjectName(QStringLiteral("ant2"));
         ant2->setEnabled(true);
         ant2->setGeometry(QRect(150, 50, 41, 31));
+        ant2->setMaximumSize(QSize(41, 31));
         ant2->setFont(font);
         ant3 = new QLabel(window);
         ant3->setObjectName(QStringLiteral("ant3"));
         ant3->setEnabled(true);
         ant3->setGeometry(QRect(260, 50, 41, 31));
+        ant3->setMaximumSize(QSize(41, 31));
         ant3->setFont(font);
         ant4 = new QLabel(window);
         ant4->setObjectName(QStringLiteral("ant4"));
         ant4->setEnabled(true);
         ant4->setGeometry(QRect(370, 50, 41, 31));
+        ant4->setMaximumSize(QSize(41, 31));
         ant4->setFont(font);
         ant5 = new QLabel(window);
         ant5->setObjectName(QStringLiteral("ant5"));
         ant5->setEnabled(true);
         ant5->setGeometry(QRect(480, 50, 41, 31));
+        ant5->setMaximumSize(QSize(41, 31));
         ant5->setFont(font);
         MaxtimeLabel = new QLabel(window);
         MaxtimeLabel->setObjectName(QStringLiteral("MaxtimeLabel"));
         MaxtimeLabel->setEnabled(true);
-        MaxtimeLabel->setGeometry(QRect(168, 250, 111, 41));
+        MaxtimeLabel->setGeometry(QRect(70, 280, 131, 51));
         QFont font2;
         font2.setFamily(QString::fromUtf8("Aa\345\205\203\346\260\224\346\273\241\346\273\241"));
-        font2.setPointSize(15);
-        font2.setBold(true);
-        font2.setWeight(75);
+        font2.setPointSize(18);
+        font2.setBold(false);
+        font2.setWeight(50);
         MaxtimeLabel->setFont(font2);
         MinTimeLabel = new QLabel(window);
         MinTimeLabel->setObjectName(QStringLiteral("MinTimeLabel"));
         MinTimeLabel->setEnabled(true);
-        MinTimeLabel->setGeometry(QRect(443, 250, 111, 40));
+        MinTimeLabel->setGeometry(QRect(70, 449, 121, 51));
         MinTimeLabel->setFont(font2);
         Maxtime = new QLabel(window);
         Maxtime->setObjectName(QStringLiteral("Maxtime"));
         Maxtime->setEnabled(true);
-        Maxtime->setGeometry(QRect(158, 290, 121, 61));
+        Maxtime->setGeometry(QRect(250, 280, 211, 61));
         QFont font3;
         font3.setFamily(QString::fromUtf8("Aa\345\205\203\346\260\224\346\273\241\346\273\241"));
         font3.setPointSize(20);
@@ -162,7 +187,7 @@ public:
         MinTime = new QLabel(window);
         MinTime->setObjectName(QStringLiteral("MinTime"));
         MinTime->setEnabled(true);
-        MinTime->setGeometry(QRect(443, 291, 121, 61));
+        MinTime->setGeometry(QRect(250, 450, 211, 51));
         QFont font4;
         font4.setFamily(QString::fromUtf8("Aa\345\205\203\346\260\224\346\273\241\346\273\241"));
         font4.setPointSize(20);
@@ -177,28 +202,88 @@ public:
         StartButtom = new QPushButton(window);
         StartButtom->setObjectName(QStringLiteral("StartButtom"));
         StartButtom->setEnabled(true);
-        StartButtom->setGeometry(QRect(130, 370, 171, 51));
+        StartButtom->setGeometry(QRect(100, 600, 171, 51));
         QFont font5;
         font5.setFamily(QString::fromUtf8("Aa\345\205\203\346\260\224\346\273\241\346\273\241"));
         font5.setPointSize(16);
         StartButtom->setFont(font5);
-        ExitButtom = new QPushButton(window);
-        ExitButtom->setObjectName(QStringLiteral("ExitButtom"));
-        ExitButtom->setEnabled(true);
-        ExitButtom->setGeometry(QRect(410, 370, 181, 51));
-        ExitButtom->setFont(font5);
+        ResetButtom = new QPushButton(window);
+        ResetButtom->setObjectName(QStringLiteral("ResetButtom"));
+        ResetButtom->setEnabled(true);
+        ResetButtom->setGeometry(QRect(380, 600, 181, 51));
+        ResetButtom->setFont(font5);
         setLengthLabel = new QLabel(window);
         setLengthLabel->setObjectName(QStringLiteral("setLengthLabel"));
         setLengthLabel->setEnabled(true);
-        setLengthLabel->setGeometry(QRect(40, 150, 551, 31));
+        setLengthLabel->setGeometry(QRect(40, 163, 551, 31));
         setLengthLabel->setFont(font1);
         Length = new QSpinBox(window);
         Length->setObjectName(QStringLiteral("Length"));
         Length->setEnabled(true);
-        Length->setGeometry(QRect(40, 197, 81, 41));
+        Length->setGeometry(QRect(40, 210, 81, 41));
         Length->setFont(font);
         Length->setCursor(QCursor(Qt::IBeamCursor));
         Length->setMaximum(9999);
+        line = new QFrame(window);
+        line->setObjectName(QStringLiteral("line"));
+        line->setGeometry(QRect(50, 380, 611, 20));
+        line->setFrameShape(QFrame::HLine);
+        line->setFrameShadow(QFrame::Sunken);
+        line_2 = new QFrame(window);
+        line_2->setObjectName(QStringLiteral("line_2"));
+        line_2->setGeometry(QRect(50, 540, 611, 20));
+        line_2->setFrameShape(QFrame::HLine);
+        line_2->setFrameShadow(QFrame::Sunken);
+        MaxAnt1 = new QRadioButton(window);
+        MaxAnt1->setObjectName(QStringLiteral("MaxAnt1"));
+        MaxAnt1->setGeometry(QRect(50, 380, 21, 21));
+        MaxAnt1->setMouseTracking(false);
+        MaxAnt1->setIconSize(QSize(30, 30));
+        MaxAnt2 = new QRadioButton(window);
+        MaxAnt2->setObjectName(QStringLiteral("MaxAnt2"));
+        MaxAnt2->setGeometry(QRect(50, 380, 21, 21));
+        MaxAnt2->setMouseTracking(false);
+        MaxAnt2->setIconSize(QSize(30, 30));
+        MaxAnt3 = new QRadioButton(window);
+        MaxAnt3->setObjectName(QStringLiteral("MaxAnt3"));
+        MaxAnt3->setGeometry(QRect(50, 380, 21, 21));
+        MaxAnt3->setMouseTracking(false);
+        MaxAnt3->setIconSize(QSize(30, 30));
+        MaxAnt4 = new QRadioButton(window);
+        MaxAnt4->setObjectName(QStringLiteral("MaxAnt4"));
+        MaxAnt4->setGeometry(QRect(50, 380, 21, 21));
+        MaxAnt4->setMouseTracking(false);
+        MaxAnt4->setIconSize(QSize(30, 30));
+        MaxAnt5 = new QRadioButton(window);
+        MaxAnt5->setObjectName(QStringLiteral("MaxAnt5"));
+        MaxAnt5->setGeometry(QRect(50, 380, 21, 21));
+        MaxAnt5->setMouseTracking(false);
+        MaxAnt5->setIconSize(QSize(30, 30));
+        MinAnt3 = new QRadioButton(window);
+        MinAnt3->setObjectName(QStringLiteral("MinAnt3"));
+        MinAnt3->setGeometry(QRect(50, 540, 21, 21));
+        MinAnt3->setMouseTracking(false);
+        MinAnt3->setIconSize(QSize(30, 30));
+        MinAnt1 = new QRadioButton(window);
+        MinAnt1->setObjectName(QStringLiteral("MinAnt1"));
+        MinAnt1->setGeometry(QRect(50, 540, 21, 21));
+        MinAnt1->setMouseTracking(false);
+        MinAnt1->setIconSize(QSize(30, 30));
+        MinAnt2 = new QRadioButton(window);
+        MinAnt2->setObjectName(QStringLiteral("MinAnt2"));
+        MinAnt2->setGeometry(QRect(50, 540, 21, 21));
+        MinAnt2->setMouseTracking(false);
+        MinAnt2->setIconSize(QSize(30, 30));
+        MinAnt4 = new QRadioButton(window);
+        MinAnt4->setObjectName(QStringLiteral("MinAnt4"));
+        MinAnt4->setGeometry(QRect(50, 540, 21, 21));
+        MinAnt4->setMouseTracking(false);
+        MinAnt4->setIconSize(QSize(30, 30));
+        MinAnt5 = new QRadioButton(window);
+        MinAnt5->setObjectName(QStringLiteral("MinAnt5"));
+        MinAnt5->setGeometry(QRect(50, 540, 21, 21));
+        MinAnt5->setMouseTracking(false);
+        MinAnt5->setIconSize(QSize(30, 30));
 
         retranslateUi(window);
 
@@ -219,8 +304,18 @@ public:
         Maxtime->setText(QApplication::translate("window", "0", Q_NULLPTR));
         MinTime->setText(QApplication::translate("window", "0", Q_NULLPTR));
         StartButtom->setText(QApplication::translate("window", "Start", Q_NULLPTR));
-        ExitButtom->setText(QApplication::translate("window", "Exit", Q_NULLPTR));
+        ResetButtom->setText(QApplication::translate("window", "Reset", Q_NULLPTR));
         setLengthLabel->setText(QApplication::translate("window", "Please set the length of the stick:", Q_NULLPTR));
+        MaxAnt1->setText(QString());
+        MaxAnt2->setText(QString());
+        MaxAnt3->setText(QString());
+        MaxAnt4->setText(QString());
+        MaxAnt5->setText(QString());
+        MinAnt3->setText(QString());
+        MinAnt1->setText(QString());
+        MinAnt2->setText(QString());
+        MinAnt4->setText(QString());
+        MinAnt5->setText(QString());
     } // retranslateUi
 
 };

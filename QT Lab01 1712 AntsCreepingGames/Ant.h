@@ -21,7 +21,7 @@ public:
     void setDirection(bool direction);
     int getVelocity();
     bool isOnStick(Stick myStick);
-    void step();
+    void step(Stick myStick);
 };
 
 #endif // ANT_H_INCLUDED

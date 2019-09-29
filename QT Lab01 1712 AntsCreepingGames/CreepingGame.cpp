@@ -14,7 +14,7 @@ int CreepingGame::drivingGame(){
     time += incTime;
     cout << "At second " << time << ":\t";
     for(int i = 0; i < 5; i++){
-        Ants[i].step();
+        Ants[i].step(stick);
         if(Ants[i].getLocation() > stick.getLength()){
             cout << stick.getLength() << "\t";
         }
