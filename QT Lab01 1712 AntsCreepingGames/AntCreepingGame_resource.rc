@@ -1,6 +1,6 @@
 #include <windows.h>
 
-IDI_ICON1	ICON	DISCARDABLE	"D:\\Files\\Junior\\Junior 1\\OADD\\Lab1\\ECNU-OADD-Lab1-1712-AntsCreepiongGame\\QT Lab01 1712 AntsCreepingGames\\anticon.ico"
+IDI_ICON1	ICON	DISCARDABLE	"C:\\Users\\Lenovo\\Documents\\GitHub\\ECNU-OADD-Lab1-1712-AntsCreepiongGame\\QT Lab01 1712 AntsCreepingGames\\anticon.ico"
 
 VS_VERSION_INFO VERSIONINFO
 	FILEVERSION 0,0,0,0

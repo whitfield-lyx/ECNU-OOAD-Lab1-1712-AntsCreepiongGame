@@ -54,7 +54,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>10</pointsize>
     </font>
    </property>
@@ -85,7 +85,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>10</pointsize>
     </font>
    </property>
@@ -116,7 +116,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>10</pointsize>
     </font>
    </property>
@@ -147,7 +147,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>10</pointsize>
     </font>
    </property>
@@ -178,7 +178,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>10</pointsize>
     </font>
    </property>
@@ -209,10 +209,10 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>16</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <family>华文细黑</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
@@ -239,8 +239,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>10</pointsize>
+     <family>华文细黑</family>
+     <pointsize>8</pointsize>
     </font>
    </property>
    <property name="text">
@@ -267,8 +267,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>10</pointsize>
+     <family>华文细黑</family>
+     <pointsize>8</pointsize>
     </font>
    </property>
    <property name="text">
@@ -295,8 +295,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>10</pointsize>
+     <family>华文细黑</family>
+     <pointsize>8</pointsize>
     </font>
    </property>
    <property name="text">
@@ -323,8 +323,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>10</pointsize>
+     <family>华文细黑</family>
+     <pointsize>8</pointsize>
     </font>
    </property>
    <property name="text">
@@ -351,8 +351,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>10</pointsize>
+     <family>华文细黑</family>
+     <pointsize>8</pointsize>
     </font>
    </property>
    <property name="text">
@@ -373,8 +373,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>18</pointsize>
+     <family>华文细黑</family>
+     <pointsize>16</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
@@ -397,8 +397,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>18</pointsize>
+     <family>华文细黑</family>
+     <pointsize>16</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
@@ -421,7 +421,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>20</pointsize>
     </font>
    </property>
@@ -464,9 +464,8 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>20</pointsize>
-     <kerning>true</kerning>
     </font>
    </property>
    <property name="contextMenuPolicy">
@@ -505,7 +504,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>16</pointsize>
     </font>
    </property>
@@ -527,7 +526,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>16</pointsize>
     </font>
    </property>
@@ -549,10 +548,10 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
-     <pointsize>16</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <family>华文细黑</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
@@ -573,7 +572,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Aa元气满满</family>
+     <family>华文细黑</family>
      <pointsize>10</pointsize>
     </font>
    </property>
