@@ -1,5 +1,5 @@
-# ECNU-OADD-Lab1-1712-AntsCreepiongGame
-The lab1 for jnk's OADD class  
+# ECNU-OOAD-Lab1-1712-AntsCreepiongGame
+The lab1 for jnk's OOAD class  
 Problem Description:   
 有一根300 厘米的细木杆，在第30 厘米、80 厘米、110 厘米、160 厘米、250厘米这五个位置上各有一只蚂蚁 . 
 木杆很细，不能同时通过两只蚂蚁.  
